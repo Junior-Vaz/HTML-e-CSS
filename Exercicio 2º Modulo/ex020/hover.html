@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div houver em CSS</title>
+    <style>
+        body{background-color: aquamarine;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+        div{
+            color: black;
+        }
+        div > p {
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+        }
+        div:hover{
+            background-color: blue;
+            font-size: 1.5em;
+            color: aliceblue ;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de houver</h1>
+    <p>Passe o mouse abaixo:</p>
+    <div>Passe aqui!
+        <p>TEXTO ESCONDIDO </p>
+    </div>
+    <a href="pagina01.html">Click aqui para proxima pagina.</a>
+    
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML 5</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p>Tente abrir esse site em varios dispositivos, ou simpesmente tente diminuir de tamnho o seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem_flexivel">
+    </picture>
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamo aprender a Reproduzir audios em HTML 5.</p>
+    
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/Winning - NEFFEX.mp3" type="audio/mp3">
+        <source src="midia/Winning - NEFFEX.wav" type="audio/wav">
+        <source src="midia/Winning - NEFFEX.ogg" type="audio/ogg">
+        <p>Infelizmente não conseguimos reproduzir o audio <a href="midia/Winning - NEFFEX.mp3">Click aqui para baixar!</a></p>
+    </audio>
+    
+</body>
+</html>

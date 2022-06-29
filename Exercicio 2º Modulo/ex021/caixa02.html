@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            background-color: rgb(171, 171, 248);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header{
+            background-color: rgb(35, 11, 146);
+            padding: 15px;
+            border-radius: 15px;
+            border-top-right-radius: 50px;
+            margin: 10px;
+            text-align: center;
+        }
+        header > nav{
+            text-align: right;
+        }
+        nav{
+            background-color: rgb(2, 3, 44);
+            padding: 5px;
+            border-radius: 5px;
+            box-shadow: 1px 1px 50px black;
+        }
+        nav > a{
+            color: white ;
+            text-decoration: none;
+            font-weight: 700;
+            margin: 5px;
+            padding: 5px 20px 5px 20px;
+            border-radius: 5px;
+        }
+        nav > a:hover{
+            color: yellow;
+        }
+        main{
+            background-color: rgb(35, 11, 146) ;
+            padding: 15px;
+            border-top-left-radius: 50px;
+            margin: 10px;
+        }
+        article#art1{
+            border-radius: 0px;
+            text-align: justify;
+            
+        }
+        article{
+            background-color: rgb(2, 3, 44);
+            color: white;
+            padding: 5px;
+            border-top-left-radius: 35px;
+            padding-left: 20px;
+            text-align: justify;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div{
+            background-color: black;
+            display: inline-block;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Desenvolvido e Noticias de TI</h1>
+        <nav>
+            <a href="caixa01.html">login</a>
+            <a href="#">Cursos</a>
+            <a href="#">Dicas</a>
+            <a href="#">Contatos</a>
+            <a href="#">Parcerias</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+            <article>
+                <h2>Assuntos de Desenvolvimento</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, cum fugit, vel commodi nulla repudiandae ratione, consequatur sequi recusandae soluta accusamus architecto quasi nostrum! Accusantium magni quis porro iure vero?</p>
+            </article>
+        </section>
+        <section id="Noticias">
+            <article id="art1">
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt iusto mollitia id dignissimos, debitis, blanditiis suscipit ea voluptatibus maxime sapiente dolorum, itaque a assumenda voluptates quasi architecto accusamus dolores facere!</p>
+                <aside>
+                    <p>Artigo Escrito por Junior Vaz</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo.com</p>
+    </footer>
+    <div>Serviços de TI</div>
+    <div>Trabalhe Conosco!</div>
+</body>
+</html>
